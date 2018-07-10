@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338C96A220F45A90006EC1B1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C96A120F45A90006EC1B1 /* DataService.swift */; };
+		338C96A420F490EC006EC1B1 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C96A320F490EC006EC1B1 /* AuthVC.swift */; };
+		338C96A620F4914D006EC1B1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C96A520F4914D006EC1B1 /* LoginVC.swift */; };
+		338C96A820F499EC006EC1B1 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C96A720F499EC006EC1B1 /* InsetTextField.swift */; };
+		338C96AA20F49EBD006EC1B1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C96A920F49EBD006EC1B1 /* ShadowView.swift */; };
+		338C96AC20F4A00B006EC1B1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C96AB20F4A00B006EC1B1 /* AuthService.swift */; };
+		338C96AE20F4BF9A006EC1B1 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C96AD20F4BF9A006EC1B1 /* MeVC.swift */; };
 		33D7894E20F4530600CC5E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7894D20F4530600CC5E66 /* AppDelegate.swift */; };
-		33D7895020F4530600CC5E66 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7894F20F4530600CC5E66 /* FirstViewController.swift */; };
-		33D7895220F4530600CC5E66 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7895120F4530600CC5E66 /* SecondViewController.swift */; };
+		33D7895020F4530600CC5E66 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7894F20F4530600CC5E66 /* FeedVC.swift */; };
+		33D7895220F4530600CC5E66 /* GroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7895120F4530600CC5E66 /* GroupVC.swift */; };
 		33D7895520F4530600CC5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D7895320F4530600CC5E66 /* Main.storyboard */; };
 		33D7895720F4530900CC5E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D7895620F4530900CC5E66 /* Assets.xcassets */; };
 		33D7895A20F4530900CC5E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D7895820F4530900CC5E66 /* LaunchScreen.storyboard */; };
+		33D7896720F455B700CC5E66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33D7896620F455B700CC5E66 /* GoogleService-Info.plist */; };
+		DBCCD6C828BBECC7A314E62E /* Pods_feedSMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698B4C5727D17C7C307F66BA /* Pods_feedSMS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		338C96A120F45A90006EC1B1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		338C96A320F490EC006EC1B1 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		338C96A520F4914D006EC1B1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		338C96A720F499EC006EC1B1 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		338C96A920F49EBD006EC1B1 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		338C96AB20F4A00B006EC1B1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		338C96AD20F4BF9A006EC1B1 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		33D7894A20F4530600CC5E66 /* feedSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feedSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D7894D20F4530600CC5E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33D7894F20F4530600CC5E66 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		33D7895120F4530600CC5E66 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		33D7894F20F4530600CC5E66 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		33D7895120F4530600CC5E66 /* GroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupVC.swift; sourceTree = "<group>"; };
 		33D7895420F4530600CC5E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33D7895620F4530900CC5E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D7895920F4530900CC5E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D7895B20F4530900CC5E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D7896620F455B700CC5E66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46ED395DC994716439AF5757 /* Pods-feedSMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedSMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-feedSMS/Pods-feedSMS.debug.xcconfig"; sourceTree = "<group>"; };
+		698B4C5727D17C7C307F66BA /* Pods_feedSMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_feedSMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9297D540DB0C4DDA640606C3 /* Pods-feedSMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feedSMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-feedSMS/Pods-feedSMS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCCD6C828BBECC7A314E62E /* Pods_feedSMS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				33D7894C20F4530600CC5E66 /* feedSMS */,
 				33D7894B20F4530600CC5E66 /* Products */,
+				3CC6E55D7F4AEB490BDD1AD4 /* Pods */,
+				3EB81A8BED245F8DFA257AF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,80 @@
 		33D7894C20F4530600CC5E66 /* feedSMS */ = {
 			isa = PBXGroup;
 			children = (
+				33D7896520F453A400CC5E66 /* Services */,
+				33D7896420F4537D00CC5E66 /* Exstension */,
+				33D7896320F4537200CC5E66 /* View */,
+				33D7896220F4536800CC5E66 /* Model */,
+				33D7896120F4534E00CC5E66 /* Controller */,
 				33D7894D20F4530600CC5E66 /* AppDelegate.swift */,
-				33D7894F20F4530600CC5E66 /* FirstViewController.swift */,
-				33D7895120F4530600CC5E66 /* SecondViewController.swift */,
 				33D7895320F4530600CC5E66 /* Main.storyboard */,
 				33D7895620F4530900CC5E66 /* Assets.xcassets */,
 				33D7895820F4530900CC5E66 /* LaunchScreen.storyboard */,
 				33D7895B20F4530900CC5E66 /* Info.plist */,
+				33D7896620F455B700CC5E66 /* GoogleService-Info.plist */,
 			);
 			path = feedSMS;
+			sourceTree = "<group>";
+		};
+		33D7896120F4534E00CC5E66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33D7894F20F4530600CC5E66 /* FeedVC.swift */,
+				33D7895120F4530600CC5E66 /* GroupVC.swift */,
+				338C96A320F490EC006EC1B1 /* AuthVC.swift */,
+				338C96A520F4914D006EC1B1 /* LoginVC.swift */,
+				338C96AD20F4BF9A006EC1B1 /* MeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33D7896220F4536800CC5E66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33D7896320F4537200CC5E66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				338C96A720F499EC006EC1B1 /* InsetTextField.swift */,
+				338C96A920F49EBD006EC1B1 /* ShadowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33D7896420F4537D00CC5E66 /* Exstension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exstension;
+			sourceTree = "<group>";
+		};
+		33D7896520F453A400CC5E66 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				338C96A120F45A90006EC1B1 /* DataService.swift */,
+				338C96AB20F4A00B006EC1B1 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3CC6E55D7F4AEB490BDD1AD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46ED395DC994716439AF5757 /* Pods-feedSMS.debug.xcconfig */,
+				9297D540DB0C4DDA640606C3 /* Pods-feedSMS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EB81A8BED245F8DFA257AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				698B4C5727D17C7C307F66BA /* Pods_feedSMS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33D7895E20F4530900CC5E66 /* Build configuration list for PBXNativeTarget "feedSMS" */;
 			buildPhases = (
+				204E3FF497A9D88BB699427B /* [CP] Check Pods Manifest.lock */,
 				33D7894620F4530600CC5E66 /* Sources */,
 				33D7894720F4530600CC5E66 /* Frameworks */,
 				33D7894820F4530600CC5E66 /* Resources */,
+				C9943879359A922DC62BF9AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D7895A20F4530900CC5E66 /* LaunchScreen.storyboard in Resources */,
+				33D7896720F455B700CC5E66 /* GoogleService-Info.plist in Resources */,
 				33D7895720F4530900CC5E66 /* Assets.xcassets in Resources */,
 				33D7895520F4530600CC5E66 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +224,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		204E3FF497A9D88BB699427B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-feedSMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9943879359A922DC62BF9AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-feedSMS/Pods-feedSMS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-feedSMS/Pods-feedSMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33D7894620F4530600CC5E66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D7895220F4530600CC5E66 /* SecondViewController.swift in Sources */,
+				338C96AE20F4BF9A006EC1B1 /* MeVC.swift in Sources */,
+				338C96A420F490EC006EC1B1 /* AuthVC.swift in Sources */,
+				33D7895220F4530600CC5E66 /* GroupVC.swift in Sources */,
+				338C96A620F4914D006EC1B1 /* LoginVC.swift in Sources */,
+				338C96AC20F4A00B006EC1B1 /* AuthService.swift in Sources */,
 				33D7894E20F4530600CC5E66 /* AppDelegate.swift in Sources */,
-				33D7895020F4530600CC5E66 /* FirstViewController.swift in Sources */,
+				338C96AA20F49EBD006EC1B1 /* ShadowView.swift in Sources */,
+				33D7895020F4530600CC5E66 /* FeedVC.swift in Sources */,
+				338C96A820F499EC006EC1B1 /* InsetTextField.swift in Sources */,
+				338C96A220F45A90006EC1B1 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +425,7 @@
 		};
 		33D7895F20F4530900CC5E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46ED395DC994716439AF5757 /* Pods-feedSMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +444,7 @@
 		};
 		33D7896020F4530900CC5E66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9297D540DB0C4DDA640606C3 /* Pods-feedSMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
